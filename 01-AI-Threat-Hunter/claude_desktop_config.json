@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "wazuh": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "--env-file",
+        "C:/Users/amber/Documents/wazuh.env",
+        "ghcr.io/gbrigandi/mcp-server-wazuh:latest"
+      ]
+    }
+  }
+}
